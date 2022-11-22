@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-11-18T13:39:32.550Z</updated>
+  <updated>2022-11-22T14:15:16.332Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>微分方程与机器学习</title>
+    <link href="http://example.com/2022/11/20/wei-fen-fang-cheng-yu-ji-qi-xue-xi-de-guan-xi/"/>
+    <id>http://example.com/2022/11/20/wei-fen-fang-cheng-yu-ji-qi-xue-xi-de-guan-xi/</id>
+    <published>2022-11-20T05:39:58.000Z</published>
+    <updated>2022-11-22T14:15:16.332Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;微分方程与机器学习之间的关系&quot;&gt;&lt;a href=&quot;#微分方程与机器学习之间的关系&quot; class=&quot;headerlink&quot; title=&quot;微分方程与机器学习之间的关系&quot;&gt;&lt;/a&gt;微分方程与机器学习之间的关系&lt;/h1&gt;&lt;p&gt; A differential</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Lanczos方法-数值计算</title>
     <link href="http://example.com/2022/11/17/wo-de-di-yi-pian-bo-ke/"/>
     <id>http://example.com/2022/11/17/wo-de-di-yi-pian-bo-ke/</id>
     <published>2022-11-17T07:52:17.000Z</published>
-    <updated>2022-11-18T13:39:32.550Z</updated>
+    <updated>2022-11-19T03:13:47.493Z</updated>
     
     
       
