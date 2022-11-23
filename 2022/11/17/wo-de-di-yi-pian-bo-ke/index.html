@@ -428,7 +428,7 @@ b_2=Ab_1-\alpha_1b_1-\beta_0b_0,</script><p>其中$\alpha_1,\beta_0=argminb_2’
 <li>再继续这个过程，需要计算</li>
 </ol>
 <script type="math/tex; mode=display">
-b_3=Ab_2-\alpha_2b_2-\beta_1b_1-\gamma_0b_0.</script><p>要满足$b_3与b_2,b_1,b_0均正交$，则取：</p>
+b_3=Ab_2-\alpha_2b_2-\beta_1b_1-\gamma_0b_0.</script><p>要满足$b_3$与$b_2,b_1,b_0$均正交，则取：</p>
 <script type="math/tex; mode=display">
 \alpha_2=\frac{b_2'Ab_2}{b_2'b_2},\beta_1=\frac{b_1'Ab_2}{b_1'b_1},\gamma_0=\frac{b_2'Ab_0}{b_0'b_0}=\frac{b_2'(b_1+\alpha_0b_0)}{b_0'b_0}=0</script><p>Lanczos发现，每一步迭代只需要两个修正项，即著名的三项递归式，其步骤如下：</p>
 <script type="math/tex; mode=display">
@@ -439,7 +439,7 @@ b_3=(A-\alpha_2 I)b_2-\beta_1b_1,\\
 b_m=(A-\alpha_{m-1} I)b_{m-1}-\beta_{m-2}b_{m-2}=0</script><p>当出现第$m$次递归式等于零时停止。Lanczos认为此事达到了最小多项式的秩，这里$n\geq m$,$n$是对称矩阵$A$的阶。但是，在有限精度运算的情况下，这一过程可能在得到最小多项式的秩之前，$\beta_k$就已经非常小了，且$k&lt;m$.在20 世纪 60 年代, 由于人们没有对这一现象充分地理解, 致使当时 Lanczos 方法在数值计算领域上没有太大的进展.</p>
 <h3 id="2-非对称矩阵"><a href="#2-非对称矩阵" class="headerlink" title="2.非对称矩阵"></a>2.非对称矩阵</h3><h4 id="方法-1"><a href="#方法-1" class="headerlink" title="方法"></a>方法</h4><p>同时对矩阵$A$和其转置矩阵$A’$执行上述过程，从而得到两组双正交向量，这叫做双正交过程。</p>
 <h4 id="具体过程-1"><a href="#具体过程-1" class="headerlink" title="具体过程"></a>具体过程</h4><ol>
-<li>任选两个向量$b_0和b_0^<em>$($b_0^</em>$是另一个初始向量，$b_0^* \neq b_0^H$),然后生成</li>
+<li>任选两个向量$b_0$和$b_0^<em>$($b_0^</em>$是另一个初始向量，$b_0^* \neq b_0^H$),然后生成</li>
 </ol>
 <script type="math/tex; mode=display">
 b_1=Ab_0-\alpha_0b_0,\\
