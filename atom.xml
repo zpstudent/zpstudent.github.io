@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-11-22T14:15:16.332Z</updated>
+  <updated>2022-11-23T09:43:31.499Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>毕业论文整理</title>
+    <link href="http://example.com/2022/11/23/bi-ye-lun-wen-zheng-li/"/>
+    <id>http://example.com/2022/11/23/bi-ye-lun-wen-zheng-li/</id>
+    <published>2022-11-23T08:43:16.000Z</published>
+    <updated>2022-11-23T09:43:31.499Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-Accelerating-Neural-ODEs-Using-Model-Order-Reduction&quot;&gt;&lt;a href=&quot;#1-Accelerating-Neural-ODEs-Using-Model-Order-Reduction&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>微分方程与机器学习</title>

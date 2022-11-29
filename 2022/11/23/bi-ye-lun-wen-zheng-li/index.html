@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="分类, Dream">
-    <meta name="description" content="一些有意思的东西">
+    <meta name="keywords" content="毕业论文整理, Dream">
+    <meta name="description" content="1. Accelerating Neural ODEs Using Model Order Reduction2. Model Order Reduction for Networks of ODE and PDE Systems3. Mo">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>分类 | Dream</title>
+    <title>毕业论文整理 | Dream</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -333,77 +333,428 @@
 
 </header>
 
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                zp
-                
-            </div>
+    
 
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="/libs/typed/typed.js"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "从来没有真正的绝境, 只有心灵的迷途",
-                            
-                                "Never really desperate, only the lost of the soul",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">毕业论文整理</h1>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
 
 
+<main class="post-container content">
+
+    
+    <div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2022-11-23
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    385
+                </div>
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.min.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h2 id="1-Accelerating-Neural-ODEs-Using-Model-Order-Reduction"><a href="#1-Accelerating-Neural-ODEs-Using-Model-Order-Reduction" class="headerlink" title="1. Accelerating Neural ODEs Using Model Order Reduction"></a>1. Accelerating Neural ODEs Using Model Order Reduction</h2><h2 id="2-Model-Order-Reduction-for-Networks-of-ODE-and-PDE-Systems"><a href="#2-Model-Order-Reduction-for-Networks-of-ODE-and-PDE-Systems" class="headerlink" title="2. Model Order Reduction for Networks of ODE and PDE Systems"></a>2. Model Order Reduction for Networks of ODE and PDE Systems</h2><h2 id="3-Model-Order-Reduction"><a href="#3-Model-Order-Reduction" class="headerlink" title="3. Model Order Reduction"></a>3. Model Order Reduction</h2><p>介绍了Model Order Reduction，主要介绍了POD，PGD和RBM</p>
+<h2 id="4-Modelling-Dynamical-Systems-Using-Neural-Ordinary-Differential-Equations"><a href="#4-Modelling-Dynamical-Systems-Using-Neural-Ordinary-Differential-Equations" class="headerlink" title="4. Modelling Dynamical Systems Using Neural Ordinary Differential Equations"></a>4. Modelling Dynamical Systems Using Neural Ordinary Differential Equations</h2><p>利用神经网络从数据中学习ODE，本文的目的将ODEnets作为一种建模工具来从数据中直接学得动力学行为。</p>
+<h2 id="5-Model-Order-Reduction-for-Nonlinear-Systems"><a href="#5-Model-Order-Reduction-for-Nonlinear-Systems" class="headerlink" title="5. Model Order Reduction for Nonlinear Systems"></a>5. Model Order Reduction for Nonlinear Systems</h2><p>什么是MOR；对于非线性系统的MOR，以及非线性系统的二次化简；Reduce 非线性系统的奇遇方法。</p>
+<h2 id="6-Neural-Ordinary-Differential-Equations-for-Data-Driven-Reduced-Order-Modeling-of-Environmental-Hydrodynamics"><a href="#6-Neural-Ordinary-Differential-Equations-for-Data-Driven-Reduced-Order-Modeling-of-Environmental-Hydrodynamics" class="headerlink" title="6. Neural Ordinary Differential Equations for Data-Driven Reduced Order Modeling of Environmental Hydrodynamics"></a>6. Neural Ordinary Differential Equations for Data-Driven Reduced Order Modeling of Environmental Hydrodynamics</h2><p>将neural ODE作为一种在降阶模型中传播潜在空间动力学。</p>
+<h2 id="7-On-Neural-Differential-Equations"><a href="#7-On-Neural-Differential-Equations" class="headerlink" title="7. On Neural Differential Equations"></a>7. On Neural Differential Equations</h2><p>介绍了微分方程与神经网络结合的相关知识</p>
+<h2 id="8-Hamiltonian-Neural-Networks"><a href="#8-Hamiltonian-Neural-Networks" class="headerlink" title="8.Hamiltonian Neural Networks"></a>8.Hamiltonian Neural Networks</h2><p>从哈密顿结构中获得信息，从而赋予神经网络更好的归纳偏好，提高神经网络效率。</p>
+<h2 id="9-On-Second-Order-Behaviour-in-Augmented-Neural-ODEs"><a href="#9-On-Second-Order-Behaviour-in-Augmented-Neural-ODEs" class="headerlink" title="9.On Second Order Behaviour in Augmented Neural ODEs"></a>9.On Second Order Behaviour in Augmented Neural ODEs</h2><p>介绍了二阶的Augmented Neural ODEs的相关性质</p>
+<h2 id="10-Parameterized-Neural-Ordinary-Differential-Equations-Applications-to-Computational-Physics-Problems"><a href="#10-Parameterized-Neural-Ordinary-Differential-Equations-Applications-to-Computational-Physics-Problems" class="headerlink" title="10.Parameterized Neural Ordinary Differential Equations: Applications to Computational Physics Problems"></a>10.Parameterized Neural Ordinary Differential Equations: Applications to Computational Physics Problems</h2><p>参数化neural ODE，并将参数化neuralODE作为一种降维模型来研究物理问题</p>
+<h2 id="11-Reduced-order-Model-for-Fluid-Flows-via-Neural-Ordinary-Differential-Equations"><a href="#11-Reduced-order-Model-for-Fluid-Flows-via-Neural-Ordinary-Differential-Equations" class="headerlink" title="11.Reduced-order Model for Fluid Flows via Neural Ordinary Differential Equations"></a>11.Reduced-order Model for Fluid Flows via Neural Ordinary Differential Equations</h2><p>用POD来减少模型的维度，用neural ODE来预测模型的时间系数的行为，从而取代了经典的Galerkin projection.</p>
+<h2 id="12-Symplectic-Neural-Networks-in-Taylor-Series-Form-for-Hamiltonian-Systems"><a href="#12-Symplectic-Neural-Networks-in-Taylor-Series-Form-for-Hamiltonian-Systems" class="headerlink" title="12.Symplectic Neural Networks in Taylor Series Form for Hamiltonian Systems"></a>12.Symplectic Neural Networks in Taylor Series Form for Hamiltonian Systems</h2><p>引入一个四阶辛积分器将神经ode的框架结合到Taylor-net架构中,同时学习目标系统的连续时间演化保持它们的辛结构</p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">wind</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://example.com/2022/11/23/bi-ye-lun-wen-zheng-li/">http://example.com/2022/11/23/bi-ye-lun-wen-zheng-li/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">wind</a>
+                    !
+                </span>
+            </div>
+        
     </div>
-</div>
 
-<main class="content">
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
 
     
 
-<div id="category-cloud" class="container chip-container">
-    <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
+</div>
+
+                </div>
             </div>
-            <div class="tag-chips">
-                
-                你目前还没有对文章进行分类.
-                
+            
+                <div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2022/11/23/bi-ye-lun-wen-zheng-li/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="毕业论文整理">
+                        
+                        <span class="card-title">毕业论文整理</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-23
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            wind
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/11/20/wei-fen-fang-cheng-yu-ji-qi-xue-xi-de-guan-xi/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="微分方程与机器学习">
+                        
+                        <span class="card-title">微分方程与机器学习</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-20
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            wind
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+  <!-- 是否加载使用自带的 prismjs. -->
+  <script type="text/javascript" src="/libs/prism/prism.min.js"></script>
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
 
     
 
 </main>
+
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+    });
+</script>
+
 
 
     <footer class="page-footer bg-color">
