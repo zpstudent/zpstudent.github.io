@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-12-04T10:34:47.193Z</updated>
+  <updated>2022-12-07T09:06:35.701Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>六种经典神经网络</title>
+    <title>哈密顿神经网络</title>
+    <link href="http://example.com/2022/12/06/ha-mi-dun-shen-jing-wang-luo/"/>
+    <id>http://example.com/2022/12/06/ha-mi-dun-shen-jing-wang-luo/</id>
+    <published>2022-12-06T06:43:50.000Z</published>
+    <updated>2022-12-07T09:06:35.701Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;哈密顿神经网络&quot;&gt;&lt;a href=&quot;#哈密顿神经网络&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>五种经典神经网络</title>
     <link href="http://example.com/2022/12/03/wu-chong-jing-dian-shen-jing-wang-luo/"/>
     <id>http://example.com/2022/12/03/wu-chong-jing-dian-shen-jing-wang-luo/</id>
     <published>2022-12-03T03:47:04.000Z</published>
-    <updated>2022-12-04T10:34:47.193Z</updated>
+    <updated>2022-12-06T06:42:13.588Z</updated>
     
     
       
@@ -42,7 +63,7 @@
     <link href="http://example.com/2022/11/23/bi-ye-lun-wen-zheng-li/"/>
     <id>http://example.com/2022/11/23/bi-ye-lun-wen-zheng-li/</id>
     <published>2022-11-23T08:43:16.000Z</published>
-    <updated>2022-11-23T09:43:31.499Z</updated>
+    <updated>2022-12-06T06:27:17.783Z</updated>
     
     
       
